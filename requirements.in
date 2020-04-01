@@ -2,6 +2,7 @@ requests
 
 # test support
 pytest
+pytest-cov
 pytest-isort
 pytest-flake8
 

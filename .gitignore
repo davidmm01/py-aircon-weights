@@ -1,4 +1,5 @@
 .pytest_cache/
 .vscode/
 venv/
-*__pychache__/
+*.pyc
+.coverage

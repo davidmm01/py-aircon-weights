@@ -1,8 +1,15 @@
 # py-aircon-weights
 
-## Set up
+## Language Used
 
-It is recommended you create a virtual environment to run the program.  
+This solution uses the Python 3 programming language.
+
+## Set up Instructions
+
+As this solution uses python, you will need Python (minimum v3.6) installed on your machine.  
+If you don't already have it, you can get python [here](https://www.python.org/downloads/).
+
+Once you have python installed, it is my recommendation you create a virtual environment before installing dependencies.
 
 `python3 -m venv venv`
 
@@ -12,11 +19,13 @@ It is recommended you create a virtual environment to run the program.
 
 ## Run The Program
 
-TODO!
+Given you have followed the set-up instructions, from your virtual envrionment simply run the following:
+
+`python3 aircon_weights.py`
 
 ## Run The Tests
 
-Given you have set up your enviornment, simply run:
+Given you have followed the set-up instructions, from your virtual envrionment simply run the following:
 
 `pytest --isort --flake8`
 
