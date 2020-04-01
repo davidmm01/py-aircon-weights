@@ -19,15 +19,15 @@ Once you have python installed, it is my recommendation you create a virtual env
 
 ## Run The Program
 
-Given you have followed the set-up instructions, from your virtual envrionment simply run the following:
+Given you have followed the set-up instructions, from your virtual environment simply run the following:
 
 `python3 aircon_weights.py`
 
 ## Run The Tests
 
-Given you have followed the set-up instructions, from your virtual envrionment simply run the following:
+Given you have followed the set-up instructions, from your virtual environment simply run the following:
 
-`pytest --isort --flake8`
+`pytest --isort --flake8 --cov`
 
 ## Updating Requirements
 
