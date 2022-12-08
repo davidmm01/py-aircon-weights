@@ -4,31 +4,61 @@
 #
 #    pip-compile
 #
-attrs==19.3.0             # via pytest
-certifi==2019.11.28       # via requests
-chardet==3.0.4            # via requests
-click==7.1.1              # via pip-tools
-coverage==5.0.4           # via pytest-cov
-entrypoints==0.3          # via flake8
-flake8==3.7.9             # via pytest-flake8
-idna==2.9                 # via requests
-importlib-metadata==1.6.0  # via pluggy, pytest
-isort==4.3.21             # via pytest-isort
-mccabe==0.6.1             # via flake8
-more-itertools==8.2.0     # via pytest
-packaging==20.3           # via pytest
-pip-tools==4.5.1          # via -r requirements.in
-pluggy==0.13.1            # via pytest
-py==1.8.1                 # via pytest
-pycodestyle==2.5.0        # via flake8
-pyflakes==2.1.1           # via flake8
-pyparsing==2.4.6          # via packaging
-pytest-cov==2.8.1         # via -r requirements.in
-pytest-flake8==1.0.4      # via -r requirements.in
-pytest-isort==0.3.1       # via -r requirements.in
-pytest==5.4.1             # via -r requirements.in, pytest-cov, pytest-flake8, pytest-isort
-requests==2.23.0          # via -r requirements.in
-six==1.14.0               # via packaging, pip-tools
-urllib3==1.25.8           # via requests
-wcwidth==0.1.9            # via pytest
-zipp==3.1.0               # via importlib-metadata
+attrs==19.3.0
+    # via pytest
+certifi==2022.12.7
+    # via requests
+chardet==3.0.4
+    # via requests
+click==7.1.1
+    # via pip-tools
+coverage==5.0.4
+    # via pytest-cov
+entrypoints==0.3
+    # via flake8
+flake8==3.7.9
+    # via pytest-flake8
+idna==2.9
+    # via requests
+isort==4.3.21
+    # via pytest-isort
+mccabe==0.6.1
+    # via flake8
+more-itertools==8.2.0
+    # via pytest
+packaging==20.3
+    # via pytest
+pip-tools==4.5.1
+    # via -r requirements.in
+pluggy==0.13.1
+    # via pytest
+py==1.8.1
+    # via pytest
+pycodestyle==2.5.0
+    # via flake8
+pyflakes==2.1.1
+    # via flake8
+pyparsing==2.4.6
+    # via packaging
+pytest==5.4.1
+    # via
+    #   -r requirements.in
+    #   pytest-cov
+    #   pytest-flake8
+    #   pytest-isort
+pytest-cov==2.8.1
+    # via -r requirements.in
+pytest-flake8==1.0.4
+    # via -r requirements.in
+pytest-isort==0.3.1
+    # via -r requirements.in
+requests==2.23.0
+    # via -r requirements.in
+six==1.14.0
+    # via
+    #   packaging
+    #   pip-tools
+urllib3==1.25.8
+    # via requests
+wcwidth==0.1.9
+    # via pytest
